@@ -1,1 +1,1 @@
-# interview-platForm
+# interview-platform
