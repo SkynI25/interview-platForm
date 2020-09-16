@@ -1,0 +1,13 @@
+.main-tab {
+    margin-left: 2rem;
+}
+
+.main-tab h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.main-tab p {
+    color: #484848;
+    font-size: 1rem;
+}

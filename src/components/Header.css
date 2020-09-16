@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+header .left-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.left-column h1 {
+    font-size: 2rem;
+    color: #315DF9;
+}
+
+.left-column input {
+    width: 14rem;
+    height: 3rem;
+}
+
+header .right-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
