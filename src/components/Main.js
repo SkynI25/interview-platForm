@@ -1,11 +1,12 @@
 import React from 'react';
 import './Main.css';
 import InterviewerList from './InterviewerList';
+import profile from '../image/profile.jpg';
 
 const Main = () => {
   const interviewerList = [
     {
-      src: '',
+      src: profile,
       name: '정기현',
       state: '멘토',
       company: '(주)큐게임즈',
@@ -13,7 +14,7 @@ const Main = () => {
       findArea: ['IT 전공', '3년차 미만', '웹 프로그래머'],
     },
     {
-      src: '',
+      src: profile,
       name: '정기현',
       state: '멘토',
       company: '(주)큐게임즈',
@@ -21,7 +22,7 @@ const Main = () => {
       findArea: ['IT 전공', '3년차 미만', '웹 프로그래머'],
     },
     {
-      src: '',
+      src: profile,
       name: '정기현',
       state: '멘토',
       company: '(주)큐게임즈',

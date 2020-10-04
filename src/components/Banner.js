@@ -2,10 +2,12 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import interview1 from '../image/interview1.png';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import './Banner.css';
 
 const Banner = () => {
   return (
     <Carousel
+      className="carousel-banner"
       showThumbs={false}
       showIndicators={false}
       showStatus={false}

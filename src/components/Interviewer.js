@@ -1,21 +1,23 @@
 import React from 'react';
 
-const Interviewer = ({ src, name, state, company, position, findArea }) => {
+const Interviewer = ({ interviewer }) => {
+  const { src, name, company, position, findArea } = interviewer;
   return (
     <div className="interviewer">
       <div className="top">
-        <div className="left-column">
-          <img src="" alt="profile" />
-          <span className="name">{name}</span>
-          <span className="name">{name}</span>
-          <span className="name">{name}</span>
-          <span className="name">{name}</span>
-        </div>
-        <div className="right-column"></div>
+        <img src={src} alt="profile" />
+        <div className="name">{name}</div>
+        <div className="company">{company}</div>
+        <div className="position">{position}</div>
       </div>
       <div className="bottom">
-        <div className="left-column"></div>
-        <div className="right-column"></div>
+        <div className="left-column">
+          <div>인터뷰 분야</div>
+          <div>{findArea}</div>
+        </div>
+        <div className="right-column">
+          <button>인터뷰 참여하기</button>
+        </div>
       </div>
     </div>
   );

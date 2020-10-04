@@ -1,0 +1,41 @@
+.carousel-item {
+    display: flex;
+    padding: 2rem;
+    background-color: #A7D6FB;
+}
+
+.carousel-item img {
+    width: 50% !important;
+}
+
+.carousel-item div {
+    width: 50%;
+    background-color: white;
+    text-align: left;
+    line-height: 2;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+.carousel-item div h1 {
+    font-size: 2.5rem;
+    color: #484848;
+}
+
+.carousel-item div p {
+    font-size: 1.5rem;
+}
+
+.carousel-item div button {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #3A9CF8;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.carousel-item div button:focus {
+    outline: none;
+}
